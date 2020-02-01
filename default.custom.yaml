@@ -1,0 +1,41 @@
+# Rime 单手笔顺输入法（拼音字典）一善鱼 YQ-YSY <YQ-YSY@163.com>
+# 单手笔顺输入法（开源码表）https://github.com/YQ-YSY/stroke-seq_MB
+# 编码 utf-8 
+# 使用 UNIX 换行符（LF）
+# 鉴于一些文本编辑器会为 UTF-8 编码的文件添加 BOM 标记，为了防止误将该字符混入文中， 不要从文件的第一行开始正文，而请在该行行首以 # 记号起一行注释
+# default.custom.yaml
+# 这是 Rime 用户定制文件，在此指定单手笔顺输入法、Rime明月拼音简体字版，以及一些相关设置。
+# 相关 Rime 教程参考：  https://github.com/rime/home/wiki/RimeWithSchemata
+
+patch:
+  menu/page_size: 10                 # 每页候选字词个数
+  translator/enable_user_dict: ture  # 是否用户词典和字频调整ture/false
+  translator/enable_sentence: ture   # 是否码表输入法连打ture/false
+#  "ascii_composer/switch_key":
+#    Caps_Lock: commit_code
+#    Control_L: inline_ascii
+#    Control_R: noop
+#    Shift_L: commit_code # 左右Shift上屏编码并切换为英文状态，inline_ascii 设定在有输入时不能切换至英文状态
+#    Shift_R: commit_code #
+# 用户按需分配快捷键。
+# minus/减号，equal/等号，comma/逗号，period/句号，exclam/感叹号，numbersign/井号，percent/百分号，semicolon/分号，apostrophe/单引号
+#  key_binder/bindings:
+#    - { when: always, accept: Shift+space, toggle: full_shape }
+#    - { when: always, accept: Control+period, toggle: ascii_punct }
+#    - { accept: comma, send: Page_Up, when: paging }
+#    - { accept: period, send: Page_Down, when: has_menu }
+
+  schema_list:
+#  - {schema: luna_pinyin}
+    - {schema: luna_pinyin_simp}       # 明月拼音简体字版
+    - {schema: one_hand}               # 单手笔顺输入法
+#    - {schema: luna_pinyin_fluency}
+#    - {schema: bopomofo}
+#    - {schema: bopomofo_tw}
+#    - {schema: cangjie5}
+#    - {schema: stroke}
+    - {schema: terra_pinyin}           # 地球拼音（带音调输入，四声用符号 -/<\ 或者 ;,/> 置于音节末尾）
+
+# 如果原来的 Ctrl + ` 调出输入法“方案选单”与软件的关键按键冲突，可以修改这里
+#  "switcher/hotkeys":
+#    - "Control+Alt+F8"
