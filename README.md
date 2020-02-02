@@ -2,7 +2,7 @@
     
     版权：GPL v3+
     基于“单手笔顺输入法码表（stroke-seq_MB）” https://github.com/YQ-YSY/stroke-seq_MB
-    基于“Rime输入法引擎”（中州韵、小狼毫）　　　https://rime.im/
+    基于“Rime输入法引擎”（中州韵、小狼毫）　　https://rime.im/
 
     使用键盘数字小键盘为主要输入工具。
     安装和使用方法请参阅其中的《单手笔顺输入法（Rime版）使用指南》PDF文件。
@@ -19,5 +19,5 @@
     带有词库的安装包可以到百度网盘下载，或者发邮件索取：一善鱼 YQ-YSY <YQ-YSY@163.com> 
     
     词库包含3万单字、580万词组——
-    单手笔顺输入法（Rime小狼毫）Windows版：　　　https://pan.baidu.com/s/19P7U9khnelX1H8JH-97YvQ
+    单手笔顺输入法（Rime小狼毫）Windows版：　　 https://pan.baidu.com/s/19P7U9khnelX1H8JH-97YvQ
     单手笔顺输入法（ibus-Rime中州韵）Linux版：　https://pan.baidu.com/s/17c-HudhhQaNmEqLEh3e2gQ
