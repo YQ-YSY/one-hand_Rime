@@ -2,7 +2,7 @@
     
     版权：GPL v3+
     基于“单手笔顺输入法码表（stroke-seq_MB）” https://github.com/YQ-YSY/stroke-seq_MB
-    基于“Rime输入法引擎”（中州韵、小狼毫）　　https://rime.im/
+    基于“Rime输入法引擎（中州韵、小狼毫）”　　https://rime.im/
 
     使用键盘数字小键盘为主要输入工具。
     安装和使用方法请参阅其中的《单手笔顺输入法（Rime版）使用指南》PDF文件。
