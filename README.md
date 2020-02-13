@@ -19,5 +19,7 @@
     带有词库的安装包可以到百度网盘下载，或者发邮件索取：一善鱼 YQ-YSY <YQ-YSY@163.com> 
     
     词库包含3万单字、580万词组——
-    单手笔顺输入法（Rime小狼毫）Windows版：　　 https://pan.baidu.com/s/19P7U9khnelX1H8JH-97YvQ
-    单手笔顺输入法（ibus-Rime中州韵）Linux版：　https://pan.baidu.com/s/17c-HudhhQaNmEqLEh3e2gQ
+    ·单手笔顺输入法（Rime小狼毫）Windows版：
+    https://pan.baidu.com/s/1qB3YnAkT7rHRvKO3E-x7wA 提取码：52vv
+    ·单手笔顺输入法（ibus-Rime中州韵）Linux版：
+    https://pan.baidu.com/s/1oXYnEfHOoAlF7-HKOrv2Fw 提取码：mxal
