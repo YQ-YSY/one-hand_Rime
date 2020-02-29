@@ -17,9 +17,10 @@
     
     由于github对文件大小有限制，所以本站的下载不包含词库码表，仅包含单字码表和几个示范词汇。
     带有词库的安装包可以到百度网盘下载，或者发邮件索取：一善鱼 YQ-YSY <YQ-YSY@163.com> 
-    
     词库包含3万单字、580万词组——
+
     ·单手笔顺输入法（Rime小狼毫）Windows版：
     https://pan.baidu.com/s/1EuUxUJ2mW5miDAndeXJfJg 提取码：6n7e
+
     ·单手笔顺输入法（ibus-Rime中州韵）Linux版：
     https://pan.baidu.com/s/1EtI63T8UYI8qgfLgTX7vcg 提取码：b6nq
