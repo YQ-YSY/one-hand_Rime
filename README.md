@@ -20,7 +20,7 @@
     词库包含3万单字、580万词组——
 
     ·单手笔顺输入法（Rime小狼毫）Windows版：
-    https://pan.baidu.com/s/1EuUxUJ2mW5miDAndeXJfJg 提取码：6n7e
+    https://pan.baidu.com/s/1MCIEABqcxa4Ca5Cj2wvYcw 提取码: 3h7k
 
     ·单手笔顺输入法（ibus-Rime中州韵）Linux版：
-    https://pan.baidu.com/s/1EtI63T8UYI8qgfLgTX7vcg 提取码：b6nq
+    https://pan.baidu.com/s/1y2WAVsW59z_eTB1nCjXUJw 提取码: 2i83

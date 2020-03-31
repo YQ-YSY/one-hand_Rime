@@ -40,7 +40,7 @@ engine:                    # 输入引擎设定，即挂接组件的“处方”
     - echo_translator      # ※ 没有其他候选字时，回显输入码（输入码可以 Shift+Enter 上屛）
     - punct_translator     # ※ 配合 punct_segmentor 转换标点符号
     - table_translator     # ※ （可精细配置）码表翻译器，用于仓颉、五笔等基于码表的输入方案，替换 script_translator，此项可加载多个实例，后接@+翻译器名（如：cangjie、wubi等）
-#    - script_translator    # ※ （可精细配置）脚本翻译器，用于拼音、粤拼等基于音节表的输入方案，此项可加载多个实例，后接@+翻译器名（如：pinyin、jyutping等）
+#    - script_translator    # ※ （可精细配置）脚本翻译器，用于拼音、粤拼等基于音节表的输入方案，此项可加载多个实例，后接@+翻译器名（如：pinyin、jyutping等）。如果要开启脚本拼写运算，必须开启这个。
 #    - reverse_lookup_translator  # ※ （不常用）反查翻译器，用另一种编码方案查码
   filters:                 # 四、过滤器，这批组件过滤翻译的结果
     - simplifier           # ※ （可精细配置）繁简转换
@@ -55,12 +55,16 @@ translator:                # 编码翻译器（注意不要与转译器弄混，
 # # # 单手笔顺输入法的词典：单字近3万个，词汇180万个，都带精简码、六全码、笔顺码。
   dictionary: one_hand     # ※ 调用输入法编码对应的字典，字典名称，确保与字典文件前端名称一致，也要与配置文件前端名称一致。
   enable_user_dict: true   # 是否开启用户词典（用户词典记录动态字词频、用户词），true/false
+#  strict_spelling: true    # 是否开启脚本拼写运算，限定该拼写不用于输入单字
 
 speller:                   # 拼写处理器
 # # # 单手笔顺输入法用的是数字编码（则此用的纯数字是指字母大键盘上的数字，能出现在浮动栏上。）
   alphabet: 0123456789     # 用于编码的可输入字符
 # # # 单手笔顺输入法用小数点分隔词组的每个字
   delimiter: "."           # 词组的每个字分隔符号
+#  algebra:                 # 脚本拼写运算，相关 Rime 教程参考：https://github.com/rime/home/wiki/SpellingAlgebra
+#    - abbrev/^([1-9]).+$/$1/ # 每个字仅取前二个码
+#    - fuzz/^([0-9])([0-9])(.+)$/$1$2/
 
 key_binder:                # 键盘绑定器
   bindings:                # 键盘绑定，设置功能性快捷键，每一条binding可能包含：accept实际所按之键、send输出效果、toggle切换开关和when作用范围（send和toggle二选一），
