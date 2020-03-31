@@ -23,4 +23,4 @@
     https://pan.baidu.com/s/1MCIEABqcxa4Ca5Cj2wvYcw 提取码: 3h7k
 
     ·单手笔顺输入法（ibus-Rime中州韵）Linux版：
-    https://pan.baidu.com/s/1y2WAVsW59z_eTB1nCjXUJw 提取码: 2i83
+    https://pan.baidu.com/s/1MiU3vm1AmbyoJkYbS_mexw 提取码: ks5m
