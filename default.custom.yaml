@@ -1,6 +1,6 @@
-# Rime 单手笔顺输入法（拼音字典）一善鱼 YQ-YSY <YQ-YSY@163.com>
 # “单手笔顺输入法（Rime）版”   开源网址：https://github.com/YQ-YSY/one-hand_Rime
 # “单手笔顺输入法（TXT）码表”  开源网址：https://github.com/YQ-YSY/stroke-seq_MB
+# 作者：一善鱼 YQ-YSY <YQ-YSY@163.com>
 # 编码 utf-8 
 # 使用 UNIX 换行符（LF）
 # 鉴于一些文本编辑器会为 UTF-8 编码的文件添加 BOM 标记，为了防止误将该字符混入文中， 不要从文件的第一行开始正文，而请在该行行首以 # 记号起一行注释

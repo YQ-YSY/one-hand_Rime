@@ -1,17 +1,17 @@
-# Rime 单手笔顺输入法（配置文件）一善鱼 YQ-YSY <YQ-YSY@163.com>
+# Rime 单手笔顺输入法 2.0 版（配置文件）一善鱼 YQ-YSY <YQ-YSY@163.com>
 # “单手笔顺输入法（Rime）版”   开源网址：https://github.com/YQ-YSY/one-hand_Rime
 # “单手笔顺输入法（TXT）码表”  开源网址：https://github.com/YQ-YSY/stroke-seq_MB
 # 编码 utf-8 
 # 使用 UNIX 换行符（LF）
 # 鉴于一些文本编辑器会为 UTF-8 编码的文件添加 BOM 标记，为了防止误将该字符混入文中， 不要从文件的第一行开始正文，而请在该行行首以 # 记号起一行注释
 # one_hand.schema.yaml
-# 这是“单手笔顺输入法”主要配制文件。
+# 这是“单手笔顺输入法（Rime）版”的主要配制文件。
 # 相关 Rime 教程参考：  https://github.com/rime/home/wiki/RimeWithSchemata
 
 schema:                    # 概要
   name: "单手笔顺"          # 方案的显示名称（即出现于方案菜单中显示给用户看的，通常为中文），最好加引号表明是字符串
   schema_id: one_hand      # 方案的内部名称，用于在代码中调取或引用此方案，通常由小写英文、数字、下划线组成
-  version: "1.0"           # 版本号，在发布新版前请确保已更新此版本号，最好加引号表明是字符串
+  version: "2.0"           # 版本号，在发布新版前请确保已更新此版本号，最好加引号表明是字符串
   author:                  # 作者、发明人、撰写者。如果您使用别人方案做出了修改，请保留原作者的信息，并将自己的名字加在后面
     - 一善鱼 <yq-ysy@163.com>
   description: |           # 注释，如果本方案依赖于其它方案，请在此说明（通常用于反向查询所依赖的其它方案，或着是说明两种或多种方案在同时使用）
@@ -54,8 +54,8 @@ engine:                    # 输入引擎设定，即挂接组件的“处方”
 translator:                # 编码翻译器（注意不要与转译器弄混，少了一个s）
 # # # 单手笔顺输入法的词典：单字近3万个，词汇180万个，都带精简码、六全码、笔顺码。
   dictionary: one_hand     # ※ 调用输入法编码对应的字典，字典名称，确保与字典文件前端名称一致，也要与配置文件前端名称一致。
-  enable_user_dict: true   # 是否开启用户词典（用户词典记录动态字词频、用户词），true/false
-#  strict_spelling: true    # 是否开启脚本拼写运算，限定该拼写不用于输入单字
+  enable_user_dict: false   # 是否开启用户词典（用户词典记录动态字词频、用户词），true/false，暂时关闭，以免影响新手练习。
+  strict_spelling: true    # 是否开启脚本拼写运算，限定该拼写不用于输入单字
 
 speller:                   # 拼写处理器
 # # # 单手笔顺输入法用的是数字编码（则此用的纯数字是指字母大键盘上的数字，能出现在浮动栏上。）
@@ -63,8 +63,15 @@ speller:                   # 拼写处理器
 # # # 单手笔顺输入法用小数点分隔词组的每个字
   delimiter: "."           # 词组的每个字分隔符号
 #  algebra:                 # 脚本拼写运算，相关 Rime 教程参考：https://github.com/rime/home/wiki/SpellingAlgebra
-#    - abbrev/^([1-9]).+$/$1/ # 每个字仅取前二个码
-#    - fuzz/^([0-9])([0-9])(.+)$/$1$2/
+#    - derive/^(\d{1}).+$/$1/
+#    - derive/^(\d{2}).+$/$1/
+#    - derive/^(\d{3}).+$/$1/
+#    - derive/^(\d{4}).+$/$1/
+#    - derive/^(\d{5}).+$/$1/
+#    - derive/^(\d{6}).+$/$1/
+#    - derive/^(\d{7}).+$/$1/
+##    - derive/^([0-9][0-9]).+$/$1/ # 每个字仅取前二个码
+
 
 key_binder:                # 键盘绑定器
   bindings:                # 键盘绑定，设置功能性快捷键，每一条binding可能包含：accept实际所按之键、send输出效果、toggle切换开关和when作用范围（send和toggle二选一），
