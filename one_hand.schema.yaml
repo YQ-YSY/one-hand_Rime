@@ -40,7 +40,7 @@ engine:                    # 输入引擎设定，即挂接组件的“处方”
     - echo_translator      # ※ 没有其他候选字时，回显输入码（输入码可以 Shift+Enter 上屛）
     - punct_translator     # ※ 配合 punct_segmentor 转换标点符号
     - table_translator     # ※ （可精细配置）码表翻译器，用于仓颉、五笔等基于码表的输入方案，替换 script_translator，此项可加载多个实例，后接@+翻译器名（如：cangjie、wubi等）
-#    - script_translator    # ※ （可精细配置）脚本翻译器，用于拼音、粤拼等基于音节表的输入方案，此项可加载多个实例，后接@+翻译器名（如：pinyin、jyutping等）。如果要开启脚本拼写运算，必须开启这个。
+#    - script_translator@second_translator    # ※ （可精细配置）脚本翻译器，用于拼音、粤拼等基于音节表的输入方案，此项可加载多个实例，后接@+翻译器名（如：pinyin、jyutping等）。如果要开启脚本拼写运算，必须开启这个。
 #    - reverse_lookup_translator  # ※ （不常用）反查翻译器，用另一种编码方案查码
   filters:                 # 四、过滤器，这批组件过滤翻译的结果
     - simplifier           # ※ （可精细配置）繁简转换
@@ -54,8 +54,15 @@ engine:                    # 输入引擎设定，即挂接组件的“处方”
 translator:                # 编码翻译器（注意不要与转译器弄混，少了一个s）
 # # # 单手笔顺输入法的词典：单字近3万个，词汇180万个，都带精简码、六全码、笔顺码。
   dictionary: one_hand     # ※ 调用输入法编码对应的字典，字典名称，确保与字典文件前端名称一致，也要与配置文件前端名称一致。
-  enable_user_dict: false   # 是否开启用户词典（用户词典记录动态字词频、用户词），true/false，暂时关闭，以免影响新手练习。
+  enable_user_dict: false  # 是否开启用户词典（用户词典记录动态字词频、用户词），true/false，暂时关闭，以免影响新手练习，也会影响实现词组的每个字不限输入的编码数。
   strict_spelling: true    # 是否开启脚本拼写运算，限定该拼写不用于输入单字
+#  initial_quality: 0.5     # 降低它的优先级
+
+#second_translator:
+#  dictionary: one_hand_2   # 用于 script_translator 的无编码字典，可实现词组的每个字不限定输入的编码数。但此功能不完善。
+#  enable_user_dict: false 
+#  strict_spelling: true 
+#  initial_quality: 1       # 提高它的优先级
 
 speller:                   # 拼写处理器
 # # # 单手笔顺输入法用的是数字编码（则此用的纯数字是指字母大键盘上的数字，能出现在浮动栏上。）
@@ -63,7 +70,7 @@ speller:                   # 拼写处理器
 # # # 单手笔顺输入法用小数点分隔词组的每个字
   delimiter: "."           # 词组的每个字分隔符号
 #  algebra:                 # 脚本拼写运算，相关 Rime 教程参考：https://github.com/rime/home/wiki/SpellingAlgebra
-#    - derive/^(\d{1}).+$/$1/
+#    - derive/^(\d{1}).+$/$1/  # 用于 script_translator 的无编码字典，可实现词组的每个字不限定输入的编码数。但此功能不完善。
 #    - derive/^(\d{2}).+$/$1/
 #    - derive/^(\d{3}).+$/$1/
 #    - derive/^(\d{4}).+$/$1/
