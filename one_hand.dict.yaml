@@ -8,16 +8,34 @@
 # 这是单手笔顺输入法的词典文件，在 Rime 中需要使用 one_hand.schema.yaml 文件，在 translator: 段落里，用 dictionary: 指定本文件。
 # 词典文件由一善鱼 YQ-YSY <YQ-YSY@163.com> 整理，本文件用于指定调用的“子词库”文件。
 # 
-# 由于github对文件大小有限制，所以从github下载的文件不包含词库码表，仅包含单字码表和几个示范词汇。带有词库的安装包可以到百度网盘下载，或者向一善鱼发邮件索取。
-# 
 
 ---
-name: one_hand                 # 字典名称，确保与字典文件前端名称一致
-version: "2.0"                 # 版本号
-use_preset_vocabulary: ture    # 是否使用用户预设词汇
-sort: by_weight                # 字典初始排序，可选original或by_weight，by_weight 意图是不以码表的顺序排列重码字，而是比较字频。
+name: one_hand                    # 字典名称，确保与字典文件前端名称一致
+version: "2.0"                    # 版本号
+use_preset_vocabulary: ture       # 是否使用用户预设词汇
+sort: by_weight                   # 字典初始排序，可选original或by_weight，by_weight 意图是不以码表的顺序排列重码字，而是比较字频。
 
 import_tables:
-  - one_hand.text              # 单字及标点符号数字序号
-  - one_hand.core              # 核心词库
+  - one_hand.text                 # 单字及标点符号数字序号
+  - one_hand.core                 # 核心词库
+
+# 默认开启了“单字”和“核心词库”，规范纯净，基本够用。
+# 扩展词库是由网络下载的网友共享词库汇集而成，数据量太大，所包含的错别字词难以剔除。
+# 扩展词库下载并解压缩后，放在与 one_hand.schema.yaml 文件相同的目录下。
+# 想开启哪个分类，只需在下方列表中，把相应那一行前面的 # 号取消即可（保留二个空格和横线）。
+# 如果全部开启，Rime重新部署的时间也许要等二三分钟，打字不会慢。
+
+  - one_hand.caijing              # 财经股票证券
+  - one_hand.chengyu              # 成语俗语
+#  - one_hand.dili                 # 天文地理海洋
+#  - one_hand.foxue                # 佛学词汇
+#  - one_hand.gushi                # 古诗词
+#  - one_hand.jidian               # 机械电子汽车
+#  - one_hand.renming              # 历史新闻常见人名
+#  - one_hand.shengwu              # 农林动植生物
+#  - one_hand.shulihua             # 数理化计算机
+#  - one_hand.tiyu                 # 体育及运动员
+#  - one_hand.wangluo              # 网络收集词
+#  - one_hand.yixue                # 中西医学医药
+#  - one_hand.zhuzi                # 诸子百家孔老周易
 
