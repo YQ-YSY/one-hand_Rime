@@ -25,8 +25,8 @@ import_tables:
 # 想开启哪个分类，只需在下方列表中，把相应那一行前面的 # 号取消即可（保留二个空格和横线）。
 # 如果全部开启，Rime重新部署的时间也许要等二三分钟，打字不会慢。
 
-  - one_hand.caijing              # 财经股票证券
-  - one_hand.chengyu              # 成语俗语
+#  - one_hand.caijing              # 财经股票证券
+#  - one_hand.chengyu              # 成语俗语
 #  - one_hand.dili                 # 天文地理海洋
 #  - one_hand.foxue                # 佛学词汇
 #  - one_hand.gushi                # 古诗词
