@@ -7,7 +7,7 @@
 # one_hand.dict.yaml
 # 这是单手笔顺输入法的词典文件，在 Rime 中需要使用 one_hand.schema.yaml 文件，在 translator: 段落里，用 dictionary: 指定本文件。
 # 词典文件由一善鱼 YQ-YSY <YQ-YSY@163.com> 整理，本文件用于指定调用的“子词库”文件。
-# 
+# 此文件专用于 windows 版 （已拆分超大词库）。
 
 ---
 name: one_hand                    # 字典名称，确保与字典文件前端名称一致
@@ -20,22 +20,22 @@ import_tables:
   - one_hand.core                 # 核心词库
 
 # 默认开启了“单字”和“核心词库”，规范纯净，基本够用。
-# 扩展词库是由网络下载的网友共享词库汇集而成，数据量太大，所包含的错别字词难以剔除。
+# 扩展词库是由网络下载的网友共享词库汇集而成，数据量太大，所包含的错别字词长句难以剔除，请见凉。
 # 扩展词库下载并解压缩后，放在与 one_hand.schema.yaml 文件相同的目录下。
 # 想开启哪个分类，只需在下方列表中，把相应那一行前面的 # 号取消即可（保留二个空格和横线）。
-# 如果全部开启，Rime重新部署的时间也许要等二三分钟，打字不会慢。
+# 注意：Windows 系统下，不能全都开启，数据量太大，Rime无法部署，尤其是特大的三个只能单独开启。
+# 在 Linux 系统下可以全部开启，Rime重新部署的时间也只需等待二三分钟，之后打字不会慢。
 
-#  - one_hand.caijing              # 财经股票证券
-#  - one_hand.chengyu              # 成语俗语
-#  - one_hand.dili                 # 天文地理海洋
-#  - one_hand.foxue                # 佛学词汇
-#  - one_hand.gushi                # 古诗词
-#  - one_hand.jidian               # 机械电子汽车
-#  - one_hand.renming              # 历史新闻常见人名
-#  - one_hand.shengwu              # 农林动植生物
-#  - one_hand.shulihua             # 数理化计算机
-#  - one_hand.tiyu                 # 体育及运动员
-#  - one_hand.wangluo              # 网络收集词
-#  - one_hand.yixue                # 中西医学医药
-#  - one_hand.zhuzi                # 诸子百家孔老周易
-
+#  - one_hand.caijing              # 财经股票证券（5万5千个）
+#  - one_hand.chengyu              # 成语俗语（4万9千个）
+#  - one_hand.dili                 # 天文地理海洋（2万3千个）
+#  - one_hand.foxue                # 佛学词汇（——特大——51万个）
+#  - one_hand.gushi                # 古诗词（——特大——37万个）
+#  - one_hand.jidian               # 机械电子汽车（2万1千个）
+#  - one_hand.renming              # 历史新闻常见人名（7万4千个）
+#  - one_hand.shengwu              # 农林动植生物（——大——21万个）
+#  - one_hand.shulihua             # 数理化计算机（6万7千个）
+#  - one_hand.tiyu                 # 体育及运动员（7千9百个）
+#  - one_hand.wangluo              # 网络收集词（——特大——83万个）
+#  - one_hand.yixue                # 中西医学医药（——大——18万个）
+#  - one_hand.zhuzi                # 诸子百家孔老周易（2万3千个）

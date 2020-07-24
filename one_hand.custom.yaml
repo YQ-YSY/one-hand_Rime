@@ -1,0 +1,15 @@
+# Rime 单手笔顺输入法（字典）一善鱼 YQ-YSY <YQ-YSY@163.com>
+# “单手笔顺输入法（Rime）版”   开源网址：https://github.com/YQ-YSY/one-hand_Rime
+# “单手笔顺输入法（TXT）码表”  开源网址：https://github.com/YQ-YSY/stroke-seq_MB
+# 编码 utf-8 
+# 使用 UNIX 换行符（LF）
+# 鉴于一些文本编辑器会为 UTF-8 编码的文件添加 BOM 标记，为了防止误将该字符混入文中， 不要从文件的第一行开始正文，而请在该行行首以 # 记号起一行注释
+# one_hand.text.dict.yaml
+# 这是单手笔顺输入法在 Windows 系统专用“候选悬浮栏横竖排列及字体设置”文件。
+# 在 Linux 系统下不需要此文件（也没必要删除）。
+
+patch:
+  'style/color_scheme': aqua              # 颜色主题，此处修改无效，请用开始菜单的“小狼毫输入法设定”修改，建议用 aqua
+  'style/horizontal': false                    # 候选字浮动栏，横排 true 是 false 否（默认竖排）
+  'style/font_face': '微软雅黑'             # 字体名称，从记事本等的系統字体对话框里能看到
+  'style/font_point': 14                      # 字号，只认数字，不认「五号、小五」
