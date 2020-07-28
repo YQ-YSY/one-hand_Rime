@@ -10,8 +10,8 @@
 
 patch:
   menu/page_size: 10                 # 每页候选字词个数
-  translator/enable_user_dict: ture  # 是否用户词典和字频调整ture/false
-  translator/enable_sentence: ture   # 是否码表输入法连打ture/false
+#  translator/enable_user_dict: ture  # 是否开启用户词典和字频调整ture/false，在one_hand.schema.yaml里已有相同设置
+#  translator/enable_sentence: ture   # 是否开启码表输入法连打ture/false，
 #  "ascii_composer/switch_key":
 #    Caps_Lock: commit_code
 #    Control_L: inline_ascii

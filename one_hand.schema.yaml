@@ -52,8 +52,8 @@ engine:                    # 输入引擎设定，即挂接组件的“处方”
 # # # 以下设置可参考文档 https://github.com/LEOYoon-Tsaw/Rime_collections/blob/master/Rime_description.md
 
 translator:                # 编码翻译器（注意不要与转译器弄混，少了一个s）
-# # # 单手笔顺输入法的词典：单字近3万个，词汇180万个，都带精简码、六全码、笔顺码。
-  dictionary: one_hand     # ※ 调用输入法编码对应的字典，字典名称，确保与字典文件前端名称一致，也要与配置文件前端名称一致。
+# # # 单手笔顺输入法的词典：单字近3万个，核心词汇36万个，扩展词汇（可选）243万个，含精简码、六全码。
+  dictionary: one_hand     # 调用输入法编码对应的字典，字典名称，确保与字典文件前端名称一致，也要与配置文件前端名称一致。
   enable_user_dict: false  # 是否开启用户词典（用户词典记录动态字词频、用户词），true/false，暂时关闭，以免影响新手练习，也会影响实现词组的每个字不限输入的编码数。
   strict_spelling: true    # 是否开启脚本拼写运算，限定该拼写不用于输入单字
 #  initial_quality: 0.5     # 降低它的优先级
@@ -117,6 +117,7 @@ punctuator:                # 句读处理器，
 
 menu:
   page_size: 10             # 候选字每页显示个数，最多10个
+
 #  alternative_select_keys: asdfghjkl  # 如果编码字符占用了数字键，那么可以另设选字键。（本来想用“+1、+2”这样的组合键来选字，可惜Rime不支持，我也不会写程序。退一步想，即使占用大键盘的字母键来选字，然后想用小键盘的按键来映射，也已经没有其它按键可以用了，Rime也无法在选字时映射小键盘的KP_Home之类按键映射为字母，所以用不上。小键盘的KP_Home之类按键以后可以设计为类似手机的9键字母输入，这样小键盘打拼音就更方便了。）
 
 ### （开源）单手笔顺输入法码表 https://github.com/YQ-YSY/stroke-seq_MB
