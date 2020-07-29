@@ -1,4 +1,5 @@
 单手笔顺输入法（Rime引擎）2.0 版
+![单手笔顺输入法Logo图](https://github.com/YQ-YSY/one-hand_Rime/blob/master/%E5%8D%95%E6%89%8B%E7%AC%94%E9%A1%BA%E8%BE%93%E5%85%A5%E6%B3%95%EF%BC%88Logo%EF%BC%89%E6%A0%87%E5%BF%97_Color_100x100.png)
 ======
     版权：GPL v3+
     基于“单手笔顺输入法码表（stroke-seq_MB）” [https://github.com/YQ-YSY/stroke-seq_MB](https://github.com/YQ-YSY/stroke-seq_MB)
@@ -41,9 +42,9 @@
 [https://www.jianguoyun.com/p/Db_rUUAQgvjVCBjQ7a8D](https://www.jianguoyun.com/p/Db_rUUAQgvjVCBjQ7a8D)  
 
 百度云：（速度慢，需要注册用户且安装客户端才能下载）  
-单手笔顺输入法2.0（Rime小狼毫）Windows版.zip（60M） 
+单手笔顺输入法2.0（Rime小狼毫）Windows版.zip（60M）  
 [https://pan.baidu.com/s/1cvVaKhhYk3MDxp1Le2vKZQ](https://pan.baidu.com/s/1cvVaKhhYk3MDxp1Le2vKZQ) 提取码: jcg8  
-单手笔顺输入法2.0（Rime中州韵）Linux版.zip（50M） 
+单手笔顺输入法2.0（Rime中州韵）Linux版.zip（50M）  
 [https://pan.baidu.com/s/169alYt1cP7aehvA18ueiyg](https://pan.baidu.com/s/169alYt1cP7aehvA18ueiyg) 提取码: vqvm  
 
 腾讯微云：（速度慢，需要注册用户才能下载）  
