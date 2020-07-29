@@ -1,5 +1,5 @@
 单手笔顺输入法（Rime引擎）2.0 版
-![单手笔顺输入法Logo图](https://github.com/YQ-YSY/one-hand_Rime/blob/master/%E5%8D%95%E6%89%8B%E7%AC%94%E9%A1%BA%E8%BE%93%E5%85%A5%E6%B3%95%EF%BC%88Logo%EF%BC%89%E6%A0%87%E5%BF%97_Color_100x100.png)
+![单手笔顺输入法Logo图](blob/master/%E5%8D%95%E6%89%8B%E7%AC%94%E9%A1%BA%E8%BE%93%E5%85%A5%E6%B3%95%EF%BC%88Logo%EF%BC%89%E6%A0%87%E5%BF%97_Color_100x100.png)
 ======
     版权：GPL v3+
     基于“单手笔顺输入法码表（stroke-seq_MB）” [https://github.com/YQ-YSY/stroke-seq_MB](https://github.com/YQ-YSY/stroke-seq_MB)
@@ -26,7 +26,7 @@
 单手笔顺输入法2.0（Rime小狼毫）Windows版.zip（60M）  
 [https://cloud.189.cn/t/IzERNnMbymUv](https://cloud.189.cn/t/IzERNnMbymUv)  
 单手笔顺输入法2.0（Rime中州韵）Linux版.zip（50M）  
-[https://cloud.189.cn/t/mARZZ33Qny2i]([https://cloud.189.cn/t/mARZZ33Qny2i)  
+[https://cloud.189.cn/t/mARZZ33Qny2i](https://cloud.189.cn/t/mARZZ33Qny2i)  
 
 蓝奏云：（速度快，无需注册用户也能下载）  
 （但有时域名解析出错，host文件需添加一行 118.31.212.253 www.lanzous.com ）  
