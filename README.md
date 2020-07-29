@@ -14,7 +14,9 @@
     在 one_hand.schema.yaml 文件里有一句设置，在不同的操作系统下，有所不同，请您自行修改：
     Linux 系统：- {accept: KP_Enter, send: space, when: has_menu}
     Windows 系统：- {accept: Return, send: space, when: has_menu}
-     
+    
+<big>下载地址：</big>
+    
     由于github对文件大小有限制，所以本站的下载不包含词库码表，仅包含单字码表和几个示范词汇。
     以下网盘提供的下载，包含词库：单字近3万个，核心词汇36万个，扩展词汇（可选）243万个。
     
