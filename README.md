@@ -4,7 +4,7 @@
 因国内访问 github 不畅，且操作烦琐，本版以后弃用 github，只用 gitee。<br>
 [https://github.com/YQ-YSY/one-hand_Rime](https://github.com/YQ-YSY/one-hand_Rime)<br>
 注意！！！<br>
-因GitHub有文件大小限制，因此有三个文件为Zip压缩格式，请解压缩后再使用。<br>
+因GitHub有文件大小限制，因此从本站下载的有三个文件为Zip压缩格式，请解压缩后再使用。<br>
 
 提示
 ------
@@ -22,20 +22,20 @@
 
 软件下载地址（请网络搜索“单手笔顺输入法3.0版下载”）
 ------
-以下是“单手笔顺输入法（3.0_Rime版）软件.zip（347M）”各大网盘下载地址：<br>
+以下是“单手笔顺输入法（3.0_Rime版）软件.zip（357M）”各大网盘下载地址：<br>
 您也可以直接给我发邮件 YQ-YSY@163.com ，我会回复邮件发送给您。<br>
 
 天翼云盘：（速度快，需要注册用户才能下载，微信一扫即可）<br>
-[https://cloud.189.cn/t/aYVrUvyM7Jfe](https://cloud.189.cn/t/aYVrUvyM7Jfe)<br>
-访问码：2in7<br>
+[https://cloud.189.cn/t/UZJVZrMBF7Bv](https://cloud.189.cn/t/UZJVZrMBF7Bv)<br>
+访问码：6uqe<br>
 
 坚果云：（需要注册用户才能下载）<br>
-[https://www.jianguoyun.com/p/DYVbr0cQgvjVCBjVkLwFIAA](https://www.jianguoyun.com/p/DYVbr0cQgvjVCBjVkLwFIAA)<br>
+（请稍等几天后更新）
 
 百度云：（速度慢，需要注册用户且安装客户端才能下载）<br>
-[https://pan.baidu.com/s/1s7UFPjGq0k8MAm4KfF738g?pwd=weq9](https://pan.baidu.com/s/1s7UFPjGq0k8MAm4KfF738g?pwd=weq9)<br>
-提取码：weq9<br>
+[https://pan.baidu.com/s/16bSMLLrScn0Vc8NAWClUEw?pwd=pb6w](https://pan.baidu.com/s/16bSMLLrScn0Vc8NAWClUEw?pwd=pb6w)<br>
+提取码：pb6w<br>
 
 腾讯微云：（速度慢，需要注册用户才能下载）<br>
-[https://share.weiyun.com/e37d5DGD](https://share.weiyun.com/e37d5DGD)<br>
+[https://share.weiyun.com/it1Lyz3I](https://share.weiyun.com/it1Lyz3I)<br>
 
