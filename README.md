@@ -22,20 +22,19 @@
 
 软件下载地址（请网络搜索“单手笔顺输入法3.0版下载”）
 ------
-以下是“单手笔顺输入法（3.0_Rime版）软件.zip（357M）”各大网盘下载地址：<br>
+以下是“单手笔顺输入法（3.0_Rime版）软件.zip（359M）”各大网盘下载地址：<br>
 您也可以直接给我发邮件 YQ-YSY@163.com ，我会回复邮件发送给您。<br>
 
 天翼云盘：（速度快，需要注册用户才能下载，微信一扫即可）<br>
-[https://cloud.189.cn/t/UZJVZrMBF7Bv](https://cloud.189.cn/t/UZJVZrMBF7Bv)<br>
-访问码：6uqe<br>
+[https://cloud.189.cn/t/uuQvUzIrMRjm](https://cloud.189.cn/t/uuQvUzIrMRjm)<br>
+访问码：3igx<br>
 
 坚果云：（需要注册用户才能下载）<br>
 （请稍等几天后更新）
 
 百度云：（速度慢，需要注册用户且安装客户端才能下载）<br>
-[https://pan.baidu.com/s/16bSMLLrScn0Vc8NAWClUEw?pwd=pb6w](https://pan.baidu.com/s/16bSMLLrScn0Vc8NAWClUEw?pwd=pb6w)<br>
-提取码：pb6w<br>
+[https://pan.baidu.com/s/1e5vXSU5Otn_SJ9LFQ68gbQ?pwd=i6mx](https://pan.baidu.com/s/1e5vXSU5Otn_SJ9LFQ68gbQ?pwd=i6mx)<br>
+提取码：i6mx<br>
 
 腾讯微云：（速度慢，需要注册用户才能下载）<br>
-[https://share.weiyun.com/it1Lyz3I](https://share.weiyun.com/it1Lyz3I)<br>
-
+[https://share.weiyun.com/SysMQijR](https://share.weiyun.com/SysMQijR)<br>
