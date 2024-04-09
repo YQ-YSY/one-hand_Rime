@@ -14,9 +14,15 @@
 基于“Rime输入法引擎（中州韵、小狼毫）” <br>
 [https://rime.im/](https://rime.im/) <br>
 
-使用键盘数字小键盘为主要输入工具。包含三层编码：精简码、六全码、笔顺码。<br>
+使用电脑键盘右侧的数字小键盘为主要输入工具。<br>
+包含三层编码：精简码、六全码、笔顺码。<br>
 共录入20988个汉字，54万关键词库，192万常用词汇短语，160万扩展分类词库。<br>
-安装包内附有：各种操作系统的安装方法视频及图文、打字教程视频及图文。<br>
+
+安装包内附有：安装方法（视频及图文）、打字教程（视频及图文）。<br>
+视频中的各种操作系统包括：<br>
+统信 Uos、银河麒麟 Kylin、深度 Deepin、<br>
+Windows10、Windows11、Ubuntu、UbuntuStudio、Fedora 。<br>
+
 请您按照“单手笔顺输入法——初学者练习手册.txt”文件中的示例练习打字，<br>
 不用死记硬背，因为有规律可循，能很快上手。<br>
 
@@ -29,8 +35,8 @@
 [https://cloud.189.cn/t/uuQvUzIrMRjm](https://cloud.189.cn/t/uuQvUzIrMRjm)<br>
 访问码：3igx<br>
 
-坚果云：（需要注册用户才能下载）<br>
-（请稍等几天后更新）
+坚果云：（需要注册用户才能下载，每月有流量限制）<br>
+[https://www.jianguoyun.com/p/DYVbr0cQgvjVCBjVkLwFIAA](https://www.jianguoyun.com/p/DYVbr0cQgvjVCBjVkLwFIAA)<br>
 
 百度云：（速度慢，需要注册用户且安装客户端才能下载）<br>
 [https://pan.baidu.com/s/1e5vXSU5Otn_SJ9LFQ68gbQ?pwd=i6mx](https://pan.baidu.com/s/1e5vXSU5Otn_SJ9LFQ68gbQ?pwd=i6mx)<br>
