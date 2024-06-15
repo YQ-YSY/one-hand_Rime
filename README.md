@@ -32,15 +32,15 @@ Windows10、Windows11、Ubuntu、UbuntuStudio、Fedora 。<br>
 您也可以直接给我发邮件 YQ-YSY@163.com ，我会回复邮件发送给您。<br>
 
 天翼云盘：（速度快，需要注册用户才能下载，微信一扫即可）<br>
-[https://cloud.189.cn/t/uuQvUzIrMRjm](https://cloud.189.cn/t/uuQvUzIrMRjm)<br>
-访问码：3igx<br>
+[https://cloud.189.cn/t/qmqUzuFRbuIz](https://cloud.189.cn/t/qmqUzuFRbuIz)<br>
+访问码：cw9f<br>
 
 坚果云：（需要注册用户才能下载，每月有流量限制）<br>
-[https://www.jianguoyun.com/p/DYVbr0cQgvjVCBjVkLwFIAA](https://www.jianguoyun.com/p/DYVbr0cQgvjVCBjVkLwFIAA)<br>
+[https://www.jianguoyun.com/p/DX0LQK0QgvjVCBjS3ckFIAA](https://www.jianguoyun.com/p/DX0LQK0QgvjVCBjS3ckFIAA)<br>
 
 百度云：（速度慢，需要注册用户且安装客户端才能下载）<br>
-[https://pan.baidu.com/s/1e5vXSU5Otn_SJ9LFQ68gbQ?pwd=i6mx](https://pan.baidu.com/s/1e5vXSU5Otn_SJ9LFQ68gbQ?pwd=i6mx)<br>
-提取码：i6mx<br>
+[https://pan.baidu.com/s/1LwnsGiptViHxPPd8T-6f1w?pwd=fys4](https://pan.baidu.com/s/1LwnsGiptViHxPPd8T-6f1w?pwd=fys4)<br>
+提取码：fys4<br>
 
 腾讯微云：（速度慢，需要注册用户才能下载）<br>
-[https://share.weiyun.com/SysMQijR](https://share.weiyun.com/SysMQijR)<br>
+[https://share.weiyun.com/DXPkTOxx](https://share.weiyun.com/DXPkTOxx)<br>
