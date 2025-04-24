@@ -44,3 +44,17 @@ Windows10、Windows11、Ubuntu、UbuntuStudio、Fedora 。<br>
 
 腾讯微云：（速度慢，需要注册用户才能下载）<br>
 [https://share.weiyun.com/DXPkTOxx](https://share.weiyun.com/DXPkTOxx)<br>
+
+打字技巧（视频教程）专栏合集
+------
+知乎：https://zhuanlan.zhihu.com/column/c_1898662930926511765 <br>
+B站：https://space.bilibili.com/3546651209763709/lists/4693134?type=series <br>
+抖音：https://www.douyin.com/collection/7496689064632911922/1 <br>
+
+安装方法（视频及图文教程）专栏合集
+------
+知乎（视频）：https://zhuanlan.zhihu.com/column/c_1755553667376136192 <br>
+知乎（图文）：https://www.zhihu.com/column/c_1755553667376136192 <br>
+B站（视频）：https://space.bilibili.com/3546651209763709/lists/4030817?type=series <br>
+B站（图文）：https://www.bilibili.com/read/readlist/rl815072 <br>
+抖音：https://www.douyin.com/collection/7468974287261534235/1 <br>
