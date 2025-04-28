@@ -1,4 +1,4 @@
-单手笔顺输入法码表 one-hand_Rime 3.0 版
+单手笔顺输入法 one-hand_Rime 3.0 版（软件）
 ------
 [https://gitee.com/yq-ysy/one-hand_-rime](https://gitee.com/yq-ysy/one-hand_-rime)<br>
 因国内访问 github 不畅，且操作烦琐，本版以后弃用 github，只用 gitee。<br>
