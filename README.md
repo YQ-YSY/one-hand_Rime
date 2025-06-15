@@ -9,8 +9,9 @@
 ------
 单手笔顺输入法——使用电脑键盘右侧的‘数字小键盘’为主要输入工具。<br>
 版权：GPL v3+ <br>
-基于“单手笔顺输入法码表（one-hand_code）” <br>
-[https://gitee.com/yq-ysy/one-hand_-rime](https://gitee.com/yq-ysy/one-hand_-rime) <br>
+基于“单手笔顺输入法码表（one-hand_mb）” <br>
+[https://gitee.com/yq-ysy/one-hand_mb](https://gitee.com/yq-ysy/one-hand_mb) <br>
+[https://github.com/YQ-YSY/stroke-seq_MB](https://github.com/YQ-YSY/stroke-seq_MB) <br>
 基于“Rime输入法引擎（中州韵、小狼毫）” <br>
 [https://rime.im/](https://rime.im/) <br>
 
